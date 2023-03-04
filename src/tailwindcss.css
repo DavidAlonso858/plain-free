@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: 'Nunito', sans-serif;
-  @apply text-body-color;
+  color: ;
 }
 *:focus, button:focus {
   @apply outline-none shadow-none;
@@ -121,7 +121,7 @@ a, button {
 .toggler-icon {
   @apply relative block duration-300 bg-black;
   height: 2px;
-  width: 30px;
+  width: 20px;
   margin: 6px 0;
 }
 .sticky .toggler-icon {
@@ -154,6 +154,7 @@ a, button {
     height: 800px;
   }
 }
+
 .hero_shape {
   @apply absolute opacity-40 -z-10;
 }
